@@ -11,7 +11,7 @@ def load_model():
 model = load_model()
 
 st.title("YOLO Polygon WebApp")
-st.write("อัปโหลดรูปภาพ")
+
 
 
 uploaded_file = st.file_uploader("เลือกรูปภาพ...", type=["jpg", "jpeg", "png"])
